@@ -23,4 +23,4 @@ Run
 make f
 ```
 to make the executable and clean object files at once.<br>
-This mini project is inspire by a school assignment available vie this [link](https://drive.google.com/file/d/1YBU_apkXirqHPc-KdLeXPI-WrlUAWKnl/view?usp=sharing).
+This mini project is inspire by a school assignment available via this [link](https://drive.google.com/file/d/1YBU_apkXirqHPc-KdLeXPI-WrlUAWKnl/view?usp=sharing).
