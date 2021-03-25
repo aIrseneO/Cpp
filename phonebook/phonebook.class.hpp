@@ -6,14 +6,16 @@
 /*   By: atemfack <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/22 19:19:58 by atemfack          #+#    #+#             */
-/*   Updated: 2021/03/24 01:05:10 by atemfack         ###   ########.fr       */
+/*   Updated: 2021/03/24 19:33:23 by atemfack         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHONEBOOK_CLASS_HPP
 # define PHONEBOOK_CLASS_HPP
 
-# define MAXPHONEBOOKSIZE 8
+# ifndef MAXPHONEBOOKSIZE
+#  define MAXPHONEBOOKSIZE 2
+# endif
 
 # include "contact.class.hpp"
 
