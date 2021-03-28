@@ -1,6 +1,6 @@
 # Sed
 
-In this project I implement a program with some basic fonctionalities of sed (stream editor for filtering and transforming text). The program takes a filename and two strings, s1 and s2. It opens the file and display its content in the standard output after replacing every occurence of s1 with s2.<br>
+In this project I implement a program with some basic functionalities of sed (stream editor for filtering and transforming text). The program takes a filename and two strings, s1 and s2. It opens the file and display its content after replacing every occurence of s1 with s2. The content is displayed in the standard output<br>
 ## Synopsis
 ```bash
 ./sed s1 s2 filename
