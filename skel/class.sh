@@ -22,14 +22,14 @@ make_class_hpp() {
 }
 ############################################################
 if [ "$#" != 2 ]; then
-	echo "Usage: $0 ClassName Skeletons_Directory"; exit 1
+	echo "Usage: $0 Skeletons_Directory ClassName"; exit 1
 fi
 #
-if [ ! -d $2 ]; then
-	echo "$2 is not a directory"; exit 1
+if [ ! -d $1 ]; then
+	echo "$1 is not a directory"; exit 1
 fi
 #
-make_mainfile $1 $2/mainMyclass.cpp
-make_makefile $1 $2/makefileMyclass
-make_class_cpp $1 $2/Myclass.cpp
-make_class_hpp $1 $2/Myclass.hpp
+make_mainfile $2 $1/mainMyclass.cpp
+make_makefile $2 $1/makefileMyclass
+make_class_cpp $2 $1/Myclass.cpp
+make_class_hpp $2 $1/Myclass.hpp
